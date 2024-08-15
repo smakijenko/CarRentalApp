@@ -1,2 +1,7 @@
-# CarRentalApp
-Hi, another Swift project. This time it's an app for car renting "Rent&amp;Travel". UI is made in SwiftUI, backend in PHP and SQL
+The app was written in SwiftUI, PHP and SQL
+
+Hi, here is the link to watch how the app looks like: https://youtu.be/CucY_95acQI
+
+Feel free :)
+
+Photos of cars come from Google Graphics.
