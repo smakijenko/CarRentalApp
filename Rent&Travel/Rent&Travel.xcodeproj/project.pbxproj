@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32119ED02C495D5500D829AE /* LunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32119ECF2C495D5500D829AE /* LunchView.swift */; };
+		323C010E2C5C33E20010C6CC /* NewClientForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323C010D2C5C33E20010C6CC /* NewClientForm.swift */; };
+		325BC7CF2C5655E600B10D44 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325BC7CE2C5655E600B10D44 /* Car.swift */; };
+		325BC7D12C56568000B10D44 /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325BC7D02C56568000B10D44 /* DataBaseManager.swift */; };
+		325BC7D32C58D7FF00B10D44 /* CarChoosingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325BC7D22C58D7FF00B10D44 /* CarChoosingView.swift */; };
+		32E7FBF22C481C3A00DA730E /* Rent_TravelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E7FBF12C481C3A00DA730E /* Rent_TravelApp.swift */; };
+		32E7FBF42C481C3A00DA730E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E7FBF32C481C3A00DA730E /* HomeView.swift */; };
+		32E7FBF62C481C3B00DA730E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E7FBF52C481C3B00DA730E /* Assets.xcassets */; };
+		32E7FBF92C481C3B00DA730E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E7FBF82C481C3B00DA730E /* Preview Assets.xcassets */; };
+		32E7FC002C4825A100DA730E /* Extensions, global things.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E7FBFF2C4825A100DA730E /* Extensions, global things.swift */; };
+		32E7FC082C48394600DA730E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E7FC072C48394600DA730E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32119ECF2C495D5500D829AE /* LunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchView.swift; sourceTree = "<group>"; };
+		323C010D2C5C33E20010C6CC /* NewClientForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewClientForm.swift; sourceTree = "<group>"; };
+		325BC7CE2C5655E600B10D44 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		325BC7D02C56568000B10D44 /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		325BC7D22C58D7FF00B10D44 /* CarChoosingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarChoosingView.swift; sourceTree = "<group>"; };
+		32E7FBEE2C481C3A00DA730E /* Rent&Travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rent&Travel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E7FBF12C481C3A00DA730E /* Rent_TravelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rent_TravelApp.swift; sourceTree = "<group>"; };
+		32E7FBF32C481C3A00DA730E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		32E7FBF52C481C3B00DA730E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32E7FBF82C481C3B00DA730E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32E7FBFF2C4825A100DA730E /* Extensions, global things.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions, global things.swift"; sourceTree = "<group>"; };
+		32E7FC072C48394600DA730E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32E7FBEB2C481C3A00DA730E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32E7FBE52C481C3A00DA730E = {
+			isa = PBXGroup;
+			children = (
+				32E7FBF02C481C3A00DA730E /* Rent&Travel */,
+				32E7FBEF2C481C3A00DA730E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32E7FBEF2C481C3A00DA730E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32E7FBEE2C481C3A00DA730E /* Rent&Travel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32E7FBF02C481C3A00DA730E /* Rent&Travel */ = {
+			isa = PBXGroup;
+			children = (
+				32E7FC072C48394600DA730E /* LaunchScreen.storyboard */,
+				32E7FBF12C481C3A00DA730E /* Rent_TravelApp.swift */,
+				32119ECF2C495D5500D829AE /* LunchView.swift */,
+				32E7FBF32C481C3A00DA730E /* HomeView.swift */,
+				325BC7D22C58D7FF00B10D44 /* CarChoosingView.swift */,
+				323C010D2C5C33E20010C6CC /* NewClientForm.swift */,
+				325BC7CE2C5655E600B10D44 /* Car.swift */,
+				325BC7D02C56568000B10D44 /* DataBaseManager.swift */,
+				32E7FBFF2C4825A100DA730E /* Extensions, global things.swift */,
+				32E7FBF52C481C3B00DA730E /* Assets.xcassets */,
+				32E7FBF72C481C3B00DA730E /* Preview Content */,
+			);
+			path = "Rent&Travel";
+			sourceTree = "<group>";
+		};
+		32E7FBF72C481C3B00DA730E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				32E7FBF82C481C3B00DA730E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32E7FBED2C481C3A00DA730E /* Rent&Travel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E7FBFC2C481C3B00DA730E /* Build configuration list for PBXNativeTarget "Rent&Travel" */;
+			buildPhases = (
+				32E7FBEA2C481C3A00DA730E /* Sources */,
+				32E7FBEB2C481C3A00DA730E /* Frameworks */,
+				32E7FBEC2C481C3A00DA730E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rent&Travel";
+			productName = "Rent&Travel";
+			productReference = 32E7FBEE2C481C3A00DA730E /* Rent&Travel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32E7FBE62C481C3A00DA730E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					32E7FBED2C481C3A00DA730E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 32E7FBE92C481C3A00DA730E /* Build configuration list for PBXProject "Rent&Travel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32E7FBE52C481C3A00DA730E;
+			productRefGroup = 32E7FBEF2C481C3A00DA730E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32E7FBED2C481C3A00DA730E /* Rent&Travel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32E7FBEC2C481C3A00DA730E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E7FC082C48394600DA730E /* LaunchScreen.storyboard in Resources */,
+				32E7FBF92C481C3B00DA730E /* Preview Assets.xcassets in Resources */,
+				32E7FBF62C481C3B00DA730E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32E7FBEA2C481C3A00DA730E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E7FBF42C481C3A00DA730E /* HomeView.swift in Sources */,
+				325BC7D32C58D7FF00B10D44 /* CarChoosingView.swift in Sources */,
+				325BC7D12C56568000B10D44 /* DataBaseManager.swift in Sources */,
+				323C010E2C5C33E20010C6CC /* NewClientForm.swift in Sources */,
+				32E7FC002C4825A100DA730E /* Extensions, global things.swift in Sources */,
+				325BC7CF2C5655E600B10D44 /* Car.swift in Sources */,
+				32E7FBF22C481C3A00DA730E /* Rent_TravelApp.swift in Sources */,
+				32119ED02C495D5500D829AE /* LunchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		32E7FBFA2C481C3B00DA730E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32E7FBFB2C481C3B00DA730E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32E7FBFD2C481C3B00DA730E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rent&Travel/Preview Content\"";
+				DEVELOPMENT_TEAM = W6VR3Y8SL4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sth.Rent-Travel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32E7FBFE2C481C3B00DA730E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rent&Travel/Preview Content\"";
+				DEVELOPMENT_TEAM = W6VR3Y8SL4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sth.Rent-Travel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32E7FBE92C481C3A00DA730E /* Build configuration list for PBXProject "Rent&Travel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E7FBFA2C481C3B00DA730E /* Debug */,
+				32E7FBFB2C481C3B00DA730E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32E7FBFC2C481C3B00DA730E /* Build configuration list for PBXNativeTarget "Rent&Travel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E7FBFD2C481C3B00DA730E /* Debug */,
+				32E7FBFE2C481C3B00DA730E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32E7FBE62C481C3A00DA730E /* Project object */;
+}
